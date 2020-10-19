@@ -1,0 +1,22 @@
+.potaka{
+    height: 600px;
+    width: 1000px;
+    background: green;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 30px;
+    box-shadow: 3px 6px 22px rgba(0, 0, 0 0.8);
+
+}
+
+.lal-onso{
+    background: red;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 150px
+;
+
+
+}

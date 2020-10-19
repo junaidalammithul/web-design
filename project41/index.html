@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Basic Animation - Fade in & Out</title>
+		<script type="text/javascript">
+		var opacity =0;
+		var intervalID=0;
+		function fadeOut()
+		{
+			intervalID=setInterval(hide,20);
+		}
+		{
+			var img=document.getElementById("orange.jpg");
+		}
+		
+		</script>
+	</head>
+	<body>
+		<button onclick="fadeOut()" id="btnAdd">Fade Out</button>
+		<br>
+		<img style="opacity: 1 ;id="orange.jpg" src="imgs/simple_snippets.png" width="250px"/>
+		<br>
+		<button onclick="fadeIn()" id="btnStop">Fade In</button>
+	</body>
+</html>

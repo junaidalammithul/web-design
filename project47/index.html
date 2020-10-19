@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>Animated sidebar Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="pro"></div>
+			<h2> Love You All </h2>
+		<hr>
+			<ul>
+				<li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+				<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+				<li><a href="#"><i class="fa fa-newspaper-o"></i>News</a></li>
+				<li><a href="#"><i class="fa fa-bullhorn"></i>Blog</a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+				<li><a href="#"><i class="fa fa-user"></i>Sign In</a></li>
+			</ul>
+			<button class="sidebarBtn">
+			<span></span>
+			</button>
+			
+	</div>
+	<script>
+	$('.sidbarBtn').click(function(){
+		$('.sidebar').toggleClass('active');
+			$('.sidebarBtn').toggleClass('toggle');
+			
+			});
+	</script>
+</body>
+</html>

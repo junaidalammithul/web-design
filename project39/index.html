@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS DIv Image Hover</title>
+		
+		<style>
+			.container{
+				width:90%;
+				padding:20px;
+				margin:100px auto;
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+				
+			}
+			.box{
+				width:250px;
+				margin:0 10px;
+				box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+				transition:1s;
+			
+			}
+			
+			.box img{
+				display:block;
+				width:100%;
+				border-radius:5px;
+			}
+			.box:hover{
+				transform:scale(1.3);
+				z-index:2;
+			}
+		</style>
+	<head>
+	<body>
+		
+		<div class="container">
+			<div class="box">
+				<img src="pineapple.jpg">
+			</div>
+			<div class="box">
+				<img src="orange.jpg">
+			</div>
+			<div class="box">
+				<img src="tomato.jpg">
+			</div>
+			<div class="box">
+				<img src="plum.jpg">
+			</div>
+			<div class="box">
+				<img src="coffemug.jpg">
+			</div>
+		</div>
+	</body>
+
+</html>

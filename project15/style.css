@@ -1,0 +1,87 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background-image:url(pic.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.sign-up-form{
+	width:400px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.5);
+	background:transparent:;
+	padding:20px;
+	margin:8% auto 0;
+	text-align:center;
+	background:rgba(0,0,0,.3);
+	border-radius:15px;
+}
+.sign-up-form h1{
+	color:#a8701d;
+	margin-bottom:8px;
+	margin-top:2px;
+}
+.input-box{
+	border-radius:20px;
+	padding:12px;
+	margin:10px 0;
+	width:100%;
+	border:3px solid #9a5f1c;
+	outline:none;
+	font-weight:bold;
+	background-color:#e6e6e6;
+	
+}
+button{
+	color:#f7e9e9;
+	width:100%;
+	padding:8px;
+	border-radius:20px;
+	font-size:18px;
+	margin:5px 0;
+	border:3px solid #9a5f1c;
+	outline:none;
+	cursor:pointer;
+}
+.signup-btn{
+	background-color:#3e3030;
+}
+.facebook-btn{
+	background-color: #0d87e8;
+}
+.instagram-btn{
+	background-color:#dc1e68;
+}
+.twitter-btn{
+	background-color:#03bdfb;
+}
+a{
+	text-decoration:none;
+}
+p{
+	font-family:arial;
+	font-size:bold;
+	
+}
+
+
+img{
+	width:100px;
+	margin-top:-100px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
